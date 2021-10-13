@@ -1,0 +1,376 @@
+.bookingContainer {
+  margin: 4rem 0rem 0rem 0rem;
+  padding: 0rem 6rem;
+}
+
+.bookingHeaderContainer {
+}
+
+.bookingHeader {
+  color: black;
+  display: flex;
+  direction: row;
+  font-weight: bold;
+  font-size: 1.5rem;
+  align-items: center;
+  align-content: center;
+  margin-bottom: -1.5rem;
+}
+
+.bookingHeader_bold {
+  margin-left: 2rem;
+}
+
+.bookingHeader_icon {
+  margin-left: -2rem;
+}
+
+.bookingHeader_text {
+  margin-left: 1.6rem;
+  font-size: 0.8rem;
+}
+
+.mainServiceContainer {
+  height: 12rem;
+  width: 90%;
+  background-color: white;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.mainService_header {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.mainService_body {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.mainService_item {
+  border: 1px solid rgb(122, 121, 121);
+  width: 25rem;
+  height: 6rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+}
+
+.mainService_item_text {
+  color: black;
+  padding: 0.5rem !important;
+  font-size: 0.9rem;
+}
+
+.mainService_item_icon {
+  color: grey;
+  font-size: 5rem;
+  display: inline;
+  margin-bottom: -1.2rem;
+  margin-right: -0.6rem !important;
+}
+
+.mainService_item_active {
+  border: 1px solid rgb(122, 121, 121);
+  width: 25rem;
+  height: 6rem;
+  background-color: #0746a7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.mainService_item_active_text {
+  color: white;
+  padding: 0.5rem !important;
+  font-size: 0.9rem;
+}
+
+.mainService_item_active_icon {
+  font-size: 6rem;
+  margin-bottom: -1.2rem;
+  margin-right: -1rem !important;
+  display: inline;
+  color: white;
+}
+
+.shippingDetailsContainer {
+  height: 12rem;
+  width: 90%;
+  background-color: white;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.shippingDetails_headerIcon {
+  font-size: 2rem;
+  margin-top: 0rem;
+}
+
+.shippingDetails_form1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1.5rem;
+  padding: 0;
+  align-content: center;
+  align-items: center;
+}
+
+.shippingDetails_form1_buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.shippingDetails_form1_button {
+  margin: 0;
+  background-color: white;
+  color: black;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid gray;
+  height: 2rem;
+}
+
+.shippingDetails_form1_inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  align-content: center;
+  align-items: center;
+}
+
+.shippingDetails_form1_inputLeftElement {
+  margin-right: -3.5rem;
+  z-index: 1;
+  padding: 0rem;
+}
+
+.shippingDetails_form1_inputLeftText {
+  padding: 0.1rem;
+}
+
+.shippingDetails_form1_inputLeftIcon {
+  padding: 0;
+  margin-bottom: -0.2rem;
+}
+
+.shippingDetails_form1_input {
+  width: 8rem;
+  padding-left: 5rem;
+  padding-right: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  height: 2rem;
+  background-color: #f1f2f6;
+  border: none;
+  outline: none;
+}
+
+.shippingDetails_form2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0;
+  align-content: center;
+  align-items: center;
+}
+
+.shippingDetails_form2_inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  align-content: center;
+  align-items: center;
+}
+
+.shippingDetails_form2_inputLeftElement {
+  margin-right: -7.8rem;
+  z-index: 1;
+  padding: 0rem;
+}
+
+.shippingDetails_form2_inputLeftText {
+  padding: 0.1rem;
+}
+
+.shippingDetails_form2_inputLeftIcon {
+  padding: 0;
+  margin-bottom: -0.2rem;
+  margin-right: 1rem;
+}
+
+.shippingDetails_form2_input {
+  width: 8rem;
+  padding-left: 8rem;
+  padding-right: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  height: 2rem;
+  background-color: #f1f2f6;
+  border: none;
+  outline: none;
+}
+
+.shippingDetails_form2_select {
+  width: 12rem;
+  background-color: #f1f2f6;
+  padding: 0.5rem;
+}
+
+.cargoDetailsContainer {
+  height: 12rem;
+  width: 90%;
+  background-color: white;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.cargoDetails_headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cargoDetails_header {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cargoDetails_form {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.cargoDetails_formHeader {
+  font-weight: bold;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+.cargoDetails_formHeadersmall {
+  font-size: 0.9rem;
+  padding-left: 0.5rem;
+}
+
+.cargoDetails_ButtonContainer {
+  margin-top: 0.5rem;
+  width: 16rem;
+  background-color: rgb(214, 214, 214);
+  height: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.cargoDetails_Button1 {
+  padding: 0.5rem;
+  color: #0746a7;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.cargoDetails_Button2 {
+  padding: 0.5rem;
+  color: black;
+  background: none;
+  font-weight: bold;
+  border: none;
+}
+
+.cargoDetails_form {
+  margin-top: 1rem;
+  display: flex;
+  max-width: 25rem;
+}
+
+.cargoDetails_formInput {
+  padding-right: 2.3rem;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+.cargoDetails_formText1 {
+  text-align: right;
+  margin-left: -2.1rem;
+  font-weight: bold;
+}
+
+.cargoDetails_formText2 {
+  text-align: right;
+  margin-left: -1.7rem;
+  font-weight: bold;
+}
+
+.additionalServiceContainer {
+  height: 12rem;
+  width: 90%;
+  background-color: white;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.additionalService_header {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.additionalService_body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.additionalService_item {
+  display: flex;
+  width: 25rem;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.additionalService_itemText {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+}
+
+.additionalService_itemTextB {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.additionalService_itemTextT {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
